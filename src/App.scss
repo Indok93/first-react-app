@@ -21,6 +21,10 @@ body {
                         background-color: #d8d8d8;
                         padding: 5px;
                         border-radius: 10px;
+                        &:hover {
+                            background-color: #000;
+                            color: #fff;
+                        }
                     }
                 }
             }
