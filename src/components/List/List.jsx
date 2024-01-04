@@ -3,8 +3,8 @@ export const List = props => {
 
     return (
         <ul>
-            {props.data.map((item, key) => {
-                <li key={key}>{item}</li>
+            {props.data.map((item, index) => {
+                return <li key={index}>{item}</li>
             })}
         </ul>
     )
