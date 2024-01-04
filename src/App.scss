@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid 1px #000;
+    header {
+        nav {
+            padding: 1em;
+            ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: right;
+                li {
+                    margin-left: 1em;
+                    a {
+                        text-decoration: none;
+                        font-size: 1.3em;
+                        color: black;
+                        background-color: #d8d8d8;
+                        padding: 5px;
+                        border-radius: 10px;
+                        &:hover {
+                            background-color: #000;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+    }
+    main {
+        margin-top: 5em;
+    }
+    footer {
+        margin-top: 5em;
+
+    }
+}
