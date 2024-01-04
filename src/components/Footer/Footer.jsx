@@ -1,11 +1,13 @@
+import styles from './Footer.module.scss';
+
 export const Footer = () => {
     return (
-        <footer>
-            <div>
-                <h4>Contact Information</h4>
-                <p>Address: _______, ______, ______</p>
-                <p>Email: _______@_______</p>
-                <p>Phone: XXXXXXXX</p>
+        <footer className={styles.footerWrapper}>
+            <div className={styles.infoWrapper}>
+                <h4 className={styles.infoHeader}>Contact Information</h4>
+                <p>Gravsten 666, Aalborg, Danmark</p>
+                <p>info@something.com</p>
+                <p>(+45) 88 88 88 88</p>
             </div>
         </footer>
     )

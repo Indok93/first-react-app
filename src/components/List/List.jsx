@@ -1,5 +1,5 @@
 export const List = props => {
-    console.log(props);
+    // console.log(props);
 
     return (
         <ul>

@@ -1,0 +1,23 @@
+.mainWrapper {
+    margin: 2em;
+    padding: 1em;
+    border: solid 1px #f00;
+
+    .foodHeader {
+        color: salmon;
+    }
+    .moviesHeader {
+        color: salmon;
+        margin-top: 1em;
+    }
+
+    ul {
+        list-style-type: none;
+        li{
+            font-size: 1.1em;
+            padding-left: 0.5em;
+            margin: 0.2em;
+            letter-spacing: 1px;
+        }
+    }
+}

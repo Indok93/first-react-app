@@ -1,5 +1,7 @@
+import styles from "./Pagetitle.module.scss";
+
 export const Pagetitle = props => {
     return (
-        <h1>{props.pagetitle}</h1>
+        <h1 className={styles.homepage}>{props.pagetitle}</h1>
     )
 }

@@ -1,18 +1,20 @@
 import { List } from "../List/List"
+import styles from "./Main.module.scss";
 
 export const Main = () => {
     const arrayFood = [
-        'Lasagne', 'Pizza', 'livret3', 'liveret4', 'livret5'
+        'Lasagne', 'Pizza', 'Food3', 'Food4', 'Food5'
     ];
     const arrayMovies = [
         'I am Legend', 'Avatar', 'The Insidious', 'Central Intelligence', 'Talk To Me'
     ];
     return (
-        <main>
-            <h2>Favourite food</h2>
-            <List data={arrayFood}/>
-            <h2>Favourite movies</h2>
-            <List data={arrayMovies}/>
+        <main className={styles.mainWrapper}>
+            <h2 className={styles.foodHeader}>Favourite food</h2>
+            <List data={arrayFood} />
+
+            <h2 className={styles.moviesHeader}>Favourite movies</h2>
+            <List data={arrayMovies} />
         </main>
     )
 }

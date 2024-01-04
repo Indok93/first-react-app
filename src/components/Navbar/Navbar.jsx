@@ -1,6 +1,8 @@
+import styles from "./Navbar.module.scss";
+
 export const Navbar = () => {
     return (
-        <nav>
+        <nav className={styles.navigation}>
             <ul>
                 <li><a href="#">Option1</a></li>
                 <li><a href="#">Option2</a></li>
