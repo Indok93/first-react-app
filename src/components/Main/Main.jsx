@@ -1,4 +1,5 @@
 import { List } from "../List/List"
+import { Gallery } from "../Gallery/Gallery"
 import styles from "./Main.module.scss";
 
 export const Main = () => {
@@ -10,6 +11,8 @@ export const Main = () => {
     ];
     return (
         <main className={styles.mainWrapper}>
+            <Gallery />
+
             <h2 className={styles.foodHeader}>Favourite food</h2>
             <List data={arrayFood} />
 
